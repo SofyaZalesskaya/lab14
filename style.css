@@ -1,0 +1,277 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    background-image: url(img/bg.jpg);
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+ 
+}
+
+.first {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.wrapper {
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto
+}
+
+.inst-nav {
+    color: #001F3D;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 4px 0;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+}
+.nav li {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.nav li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.header {
+    background-color: #fff;
+    padding-top: inherit;
+    padding-top: 4px;
+}
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 12px 0;
+}
+.logo {
+    background-image: url(img/ZALESSKAYA.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #05044b;
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+.header-info span {
+    font-size: 16px;
+}
+.header-info button {
+    font-size: 14px;
+    color: #333333;
+    border-radius: 20px;
+    border: 2px solid #05044b;
+    background-color: transparent;
+    padding: 10px 25px;
+    margin-left: 36px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.header-bottom {
+    padding: 20px 0 17px 0;
+}
+.header-bottom .nav {
+    font-size: 16px;
+    margin: 0;
+}
+.header-bottom .nav {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.banner {  
+
+    padding-bottom: 200px;
+    color: #001F3D;
+}
+.title {
+    margin-top: 150px;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 39px;
+    color: #000;
+}
+
+.me-cont {
+    max-width: 50%;
+}
+
+.me-img-cont {
+    width: 700px;
+}
+
+.banner-photos {
+    
+}
+
+.photos {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.photo-item {
+    max-width: 33.3333%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.photos-item-img {
+    max-width: 100%;
+    height: 470px;
+}
+
+.nastya-info {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.container-info p {
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 60px;
+}
+
+.title-h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.img-honey-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-honey {
+
+    height: 540px;
+}
+
+.banner-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-banner{
+
+}
+
+.title-h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.banner p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    max-width: 535px;
+}
+.honey {
+    background-image: url(img/Group2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1d3b57;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.content-honey {
+    
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    align-items: flex-start;
+
+
+}
+
+.content-honey p { 
+    font-size: 20px;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+.bg-white {
+    background-color: #fff;
+}
+
+.catalog {
+    padding-top: 60px;
+    padding-bottom: 133px;
+}
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    grid-gap: 19px 30px;
+}
+
+.grid-item-catalog {
+    text-align: center;
+}
+.grid-item-catalog .bg-white {
+    padding: 23px 30px 34px 30px;
+}
+.thumb {
+    margin-bottom: 14px;
+}
+.grid-title {
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+
+.footer-top {
+    display: flex;
+justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 23px;
+}
+footer-info {
+    display:flex;
+    align-items: center;
+}
+.footer-info span:first-child {
+    font-size: 14px;
+    margin-left: 0;
+}
+.footer-info span {
+    font-size: 16px;
+    margin-left: 103px;
+}
+
+
